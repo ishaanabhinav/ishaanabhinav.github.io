@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ishaan Abhinav
-title: UI Engineer
+title: Full Stack Developer
 email: ishaanabhinav@gmail.com
 # website: ""
 
@@ -48,30 +48,11 @@ linkedin_username: ishaanabhinav
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Ishaan and I'm a UI Engineer. As well as coding beautiful UI I also have experience making ML and mobile apps.
+  Hi, my name is Ishaan Abhinav, I’m a full stack web developer with over 3 years experience currently specialising in <mark>ReactNative</mark> and <mark>Django</mark> development. I am currently working for CBREX as a UI Engineer.
 
-  I am most skilled in: <mark>Web UI</mark><mark>Django</mark> and <mark>React Native</mark>
+  I enjoy making clean and interactive UI that is easy to use whilst also giving users an enjoyable experience. I have worked with a range of languages and frameworks and I am always looking for opportunities to work with something new. The tech that I currently have the most experience working with are: <mark>ES6 Javascript</mark>, <mark>React Native & Redux</mark>, <mark>Django</mark>, <mark>Python</mark>, <mark>Java</mark>, <mark>ML</mark>, <mark>MySQL</mark>, and <mark>git</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-githubx
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -80,13 +61,14 @@ content:
         link: cbr.exchange
         # link_text: boringcompany.com
         sub_title: UI Engineer
-        caption: July 2019 - Present
-        sub_title: UI Engineer(Intern)
-        caption: April 2018 - July 2019
+        caption: April 2018 - Present
+        # sub_title: UI Engineer(Intern)
+        # caption: April 2018 - July 2019
         quote: >
           The worlds largest sourcing engine for screened talent.
         description: | # this will include new lines to allow paragraphs
           Every company needs UI, app and in some cases ML, well I do it all. Getting UI approval,integrating new gen features is hard but I play my part making sure the whole product looks beautiful and serves its purpose. I work with a small tech team and we enjoy driving the company to try new technologies.
+          I worked on <mark>Django</mark>, <mark>React Native</mark>, <mark>Spring Boot</mark>, <mark>Struts</mark> and <mark>HTML,CSS,JQUERY</mark> along the different verticals of company product.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,7 +84,43 @@ content:
 
           I spent a lot of my free time participating in almost a dozen of Hackathons, winning some of them, learning from some of them and extending my network at all of them.
 
-  - title: A Little More About Me
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: CBREX Enterprise APP
+        sub_title: An Enterprise app for web platform cbr.exchange
+        # link_text: Project Website
+        quote: >
+          A <mark>React Native</mark> app on top of <mark>Expo SDK</mark> with <mark>Spring Boot</mark> on the backend.
+
+      - layout: top-middle
+        title: CBREX AI Engine
+        sub_title: The engine that is at the core of matching system of cbr.exchange
+        # link_text: Project Website
+        quote: >
+          A <mark>Django</mark> app that uses various <mark>ML Models</mark> for the matching process(visit cbr.exchange for detail).
+
+      - layout: top-middle
+        title: COWIN SCRAPPER
+        sub_title: Vaccine alert for 18+ in Bengaluru
+        # link_text: Project Website
+        quote: >
+          A <mark>Python</mark> script that consumes the GOI open api and notifies user through a <mark>Telgram Bot</mark>
+  
+  - title: Courses # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: AI Curriculum Connect
+        sub_title: (UK India Tech Partnership - Scholarship)
+        sub_title: British High Commission in India 
+        link: https://ishaanabhinav.github.io/certificates/ai_certificate_Uk_India.pdf
+        link_text: View Cerificate
+        quote: >
+          A beautiful designed course to help us explore the actual industry use case of ML/AI.
+      
+  - title: When I'm Not Programming
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in Computers and software engineering some of my other interests and hobbies are:
@@ -112,7 +130,7 @@ content:
       - [Adding Calisthenics to the list soon]
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
